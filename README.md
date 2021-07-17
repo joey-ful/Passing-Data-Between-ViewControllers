@@ -1,6 +1,8 @@
 # 뷰 컨트롤러 간 데이터 전달하기 (Passing Data Between ViewControllers)
 
 [노션 페이지 정리](https://www.notion.so/Passing-Data-Between-ViewControllers-1481d90cac88450382b7b151078c836b)
+<br>
+코드는 브랜치별로 확인 가능
 
 ## A ➡ B (다음 화면에 데이터 전달)
 <img src="https://user-images.githubusercontent.com/52592748/126033978-7174f17f-d777-4c39-87fd-196773748eba.png" width="400"/>
