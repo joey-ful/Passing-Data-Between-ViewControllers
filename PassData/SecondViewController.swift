@@ -13,10 +13,10 @@ class SecondViewController: UIViewController {
     }
     
     @IBAction func gisuButtonTapped(_ sender: UIButton) {
-        if let firstVC = presentingViewController as? FirstViewController,
-           let gisu = sender.titleLabel?.text {
-            firstVC.setGisu(gisu)
-            dismiss(animated: true, completion: nil)
+        if let firstVC = presentingViewController as? FirstViewController {
+            dismiss(animated: true, completion: {
+                        firstVC.answer("3기 입니다")
+            })
         }
     }
 }
