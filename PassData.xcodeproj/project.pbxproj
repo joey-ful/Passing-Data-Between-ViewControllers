@@ -12,9 +12,8 @@
 		D466BEA92699084500A0596C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D466BEA72699084500A0596C /* Main.storyboard */; };
 		D466BEAB2699084700A0596C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D466BEAA2699084700A0596C /* Assets.xcassets */; };
 		D466BEAE2699084700A0596C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D466BEAC2699084700A0596C /* LaunchScreen.storyboard */; };
-		D466BEC52699164E00A0596C /* SajangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D466BEC42699164E00A0596C /* SajangViewController.swift */; };
-		D466BEC82699165600A0596C /* BiseoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D466BEC72699165600A0596C /* BiseoViewController.swift */; };
-		D49644E926A2C7C200B4EADF /* Biseo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49644E826A2C7C200B4EADF /* Biseo.swift */; };
+		D466BEC52699164E00A0596C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D466BEC42699164E00A0596C /* SecondViewController.swift */; };
+		D466BEC82699165600A0596C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D466BEC72699165600A0596C /* FirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +24,8 @@
 		D466BEAA2699084700A0596C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D466BEAD2699084700A0596C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D466BEAF2699084700A0596C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D466BEC42699164E00A0596C /* SajangViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SajangViewController.swift; sourceTree = "<group>"; };
-		D466BEC72699165600A0596C /* BiseoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiseoViewController.swift; sourceTree = "<group>"; };
-		D49644E826A2C7C200B4EADF /* Biseo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biseo.swift; sourceTree = "<group>"; };
+		D466BEC42699164E00A0596C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D466BEC72699165600A0596C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +58,8 @@
 		D466BEA02699084500A0596C /* PassData */ = {
 			isa = PBXGroup;
 			children = (
-				D466BEC42699164E00A0596C /* SajangViewController.swift */,
-				D466BEC72699165600A0596C /* BiseoViewController.swift */,
-				D49644E826A2C7C200B4EADF /* Biseo.swift */,
+				D466BEC42699164E00A0596C /* SecondViewController.swift */,
+				D466BEC72699165600A0596C /* FirstViewController.swift */,
 				D466BEA12699084500A0596C /* AppDelegate.swift */,
 				D466BEA32699084500A0596C /* SceneDelegate.swift */,
 				D466BEA72699084500A0596C /* Main.storyboard */,
@@ -143,11 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D466BEC82699165600A0596C /* BiseoViewController.swift in Sources */,
+				D466BEC82699165600A0596C /* FirstViewController.swift in Sources */,
 				D466BEA22699084500A0596C /* AppDelegate.swift in Sources */,
-				D466BEC52699164E00A0596C /* SajangViewController.swift in Sources */,
+				D466BEC52699164E00A0596C /* SecondViewController.swift in Sources */,
 				D466BEA42699084500A0596C /* SceneDelegate.swift in Sources */,
-				D49644E926A2C7C200B4EADF /* Biseo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

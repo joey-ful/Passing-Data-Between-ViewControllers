@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Biseo View Controller-->
+        <!--First View Controller-->
         <scene sceneID="VO6-er-5db">
             <objects>
-                <viewController id="ZOE-Tz-l0Q" customClass="BiseoViewController" customModule="PassData" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ZOE-Tz-l0Q" customClass="FirstViewController" customModule="PassData" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gVN-g1-Md2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -22,12 +22,6 @@
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Biseo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fEk-dp-jNZ">
-                                <rect key="frame" x="169" y="154" width="76" height="36"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FirstVC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EAY-75-oTk">
                                 <rect key="frame" x="156" y="110" width="102" height="36"/>
@@ -49,15 +43,13 @@
                         <viewLayoutGuide key="safeArea" id="dVi-d5-EUg"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                         <constraints>
-                            <constraint firstItem="fEk-dp-jNZ" firstAttribute="top" secondItem="EAY-75-oTk" secondAttribute="bottom" constant="8" symbolic="YES" id="464-md-KnU"/>
                             <constraint firstItem="EAY-75-oTk" firstAttribute="centerX" secondItem="dVi-d5-EUg" secondAttribute="centerX" id="EKd-gA-H5F"/>
                             <constraint firstItem="EAY-75-oTk" firstAttribute="top" secondItem="dVi-d5-EUg" secondAttribute="top" constant="66" id="Fve-AM-Dsd"/>
                             <constraint firstItem="e8R-al-RGm" firstAttribute="centerX" secondItem="dVi-d5-EUg" secondAttribute="centerX" id="JMj-GF-zwq"/>
                             <constraint firstItem="EzE-Bf-Cvt" firstAttribute="leading" secondItem="dVi-d5-EUg" secondAttribute="leading" id="MVp-k4-lZz"/>
+                            <constraint firstItem="e8R-al-RGm" firstAttribute="top" secondItem="EAY-75-oTk" secondAttribute="bottom" constant="159" id="VHN-BV-SfL"/>
                             <constraint firstItem="dVi-d5-EUg" firstAttribute="trailing" secondItem="EzE-Bf-Cvt" secondAttribute="trailing" id="gcc-OX-ko4"/>
-                            <constraint firstItem="fEk-dp-jNZ" firstAttribute="centerX" secondItem="dVi-d5-EUg" secondAttribute="centerX" id="nPV-4N-Qf2"/>
                             <constraint firstItem="EzE-Bf-Cvt" firstAttribute="top" secondItem="e8R-al-RGm" secondAttribute="bottom" constant="67" id="nYT-mF-885"/>
-                            <constraint firstItem="e8R-al-RGm" firstAttribute="top" secondItem="fEk-dp-jNZ" secondAttribute="bottom" constant="115" id="uYU-Ca-toV"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="GNv-Dr-JXf"/>
@@ -69,10 +61,10 @@
             </objects>
             <point key="canvasLocation" x="1077" y="1643"/>
         </scene>
-        <!--Sajang View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="ves-Ue-gIs">
             <objects>
-                <viewController storyboardIdentifier="juiceMenu" id="R66-IS-juk" customClass="SajangViewController" customModule="PassData" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="juiceMenu" id="R66-IS-juk" customClass="SecondViewController" customModule="PassData" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kco-Kb-C2A">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -104,13 +96,6 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sajang" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QKN-iE-WUJ">
-                                <rect key="frame" x="160" y="158" width="94" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SecondVC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zNK-JI-gzx">
                                 <rect key="frame" x="134" y="114" width="146" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
