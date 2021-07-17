@@ -1,4 +1,4 @@
-# 뷰 컨트롤러 간 데이터 전달하기 (Passing Data Between ViewControllers) 정리
+# 뷰 컨트롤러 간 데이터 전달하기 (Passing Data Between ViewControllers)
 
 [노션 페이지 정리](https://www.notion.so/Passing-Data-Between-ViewControllers-1481d90cac88450382b7b151078c836b)
 
