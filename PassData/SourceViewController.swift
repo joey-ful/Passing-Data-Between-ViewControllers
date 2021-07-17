@@ -9,14 +9,15 @@ import UIKit
 
 class SourceViewController: UIViewController {
     @IBOutlet weak var sourceTextField: UITextField!
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+  
+    @IBAction func answerButtonTapped(_ sender: Any) {
         let name = sourceTextField.text ?? ""
-        guard let destination = segue.destination as? DestinationViewController else {
+        guard let destinationVC = storyboard?.instantiateViewController(identifier: "destinationVC") as? DestinationViewController else {
             return
         }
         
-        destination.name = name
+        destinationVC.name = name
+        present(destinationVC, animated: true, completion: nil)
     }
 }
 
