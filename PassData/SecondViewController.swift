@@ -9,12 +9,14 @@ import UIKit
 
 class SecondViewController: UIViewController {
     
-    @IBAction func secondVCButtonTapped(_ sender: UIButton) {
-        NotificationCenter.default.post(name: .myNotification, object: nil, userInfo: ["myAnswer": "3기 입니다"])
+    @IBAction func juiceMenuButtonTapped(_ sender: UIButton) {
+        let menu = (sender.titleLabel?.text)!
+        
+        NotificationCenter.default.post(name: .juiceNotification, object: nil, userInfo: ["menu": menu])
         dismiss(animated: true, completion: nil)
     }
 }
 
 extension Notification.Name {
-    static let myNotification = Notification.Name("answered")
+    static let juiceNotification = Notification.Name("juiceIsReady")
 }
