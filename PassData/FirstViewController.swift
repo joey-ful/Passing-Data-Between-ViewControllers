@@ -9,8 +9,16 @@ import UIKit
 
 class FirstViewController: UIViewController {
     @IBOutlet weak var answerLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        NotificationCenter.default.addObserver(self, selector: #selector(onNotification(notification:)), name: .myNotification, object: nil)
+    }
+    
+    @objc func onNotification(notification: Notification) {
+        let answer = notification.userInfo?["myAnswer"] as? String
+        answerLabel.text = answer
     }
     
     @IBAction func buttonTapped(_ sender: Any) {
@@ -18,9 +26,5 @@ class FirstViewController: UIViewController {
             return
         }
         present(secondVC, animated: true, completion: nil)
-    }
-    
-    func answer(_ text: String) {
-        answerLabel.text = text
     }
 }

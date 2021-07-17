@@ -12,11 +12,12 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    @IBAction func gisuButtonTapped(_ sender: UIButton) {
-        if let firstVC = presentingViewController as? FirstViewController {
-            dismiss(animated: true, completion: {
-                        firstVC.answer("3기 입니다")
-            })
-        }
+    @IBAction func secondVCButtonTapped(_ sender: UIButton) {
+        NotificationCenter.default.post(name: .myNotification, object: nil, userInfo: ["myAnswer": "3기 입니다"])
+        dismiss(animated: true, completion: nil)
     }
+}
+
+extension Notification.Name {
+    static let myNotification = Notification.Name("answered")
 }
