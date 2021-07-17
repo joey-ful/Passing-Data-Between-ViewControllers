@@ -24,13 +24,8 @@ class BiseoViewController: UIViewController {
     }
 }
 
-protocol Biseo {
-    func juiceMenuIsSelected(_ menu: String)
-}
-
 extension BiseoViewController: Biseo {
     func juiceMenuIsSelected(_ menu: String) {
-        print("hi")
         juiceReadyLabel.text = "\(menu) is Ready!"
     }
 }
