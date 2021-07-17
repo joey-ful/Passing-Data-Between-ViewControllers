@@ -14,7 +14,6 @@
 		D466BEAE2699084700A0596C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D466BEAC2699084700A0596C /* LaunchScreen.storyboard */; };
 		D466BED82699266200A0596C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D466BED72699266200A0596C /* FirstViewController.swift */; };
 		D466BEDB2699266700A0596C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D466BEDA2699266700A0596C /* SecondViewController.swift */; };
-		D49644D726A29EE100B4EADF /* ReceivingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49644D626A29EE100B4EADF /* ReceivingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		D466BEAF2699084700A0596C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D466BED72699266200A0596C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		D466BEDA2699266700A0596C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		D49644D626A29EE100B4EADF /* ReceivingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceivingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +60,6 @@
 			children = (
 				D466BED72699266200A0596C /* FirstViewController.swift */,
 				D466BEDA2699266700A0596C /* SecondViewController.swift */,
-				D49644D626A29EE100B4EADF /* ReceivingViewController.swift */,
 				D466BEA12699084500A0596C /* AppDelegate.swift */,
 				D466BEA32699084500A0596C /* SceneDelegate.swift */,
 				D466BEA72699084500A0596C /* Main.storyboard */,
@@ -146,7 +143,6 @@
 				D466BED82699266200A0596C /* FirstViewController.swift in Sources */,
 				D466BEA22699084500A0596C /* AppDelegate.swift in Sources */,
 				D466BEA42699084500A0596C /* SceneDelegate.swift in Sources */,
-				D49644D726A29EE100B4EADF /* ReceivingViewController.swift in Sources */,
 				D466BEDB2699266700A0596C /* SecondViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

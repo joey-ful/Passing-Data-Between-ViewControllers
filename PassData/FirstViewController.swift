@@ -10,7 +10,6 @@ import UIKit
 class FirstViewController: UIViewController {
     @IBOutlet weak var answerLabel: UILabel!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         NotificationCenter.default.addObserver(self, selector: #selector(onNotification(notification:)), name: .myNotification, object: nil)

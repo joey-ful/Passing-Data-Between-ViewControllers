@@ -8,9 +8,6 @@
 import UIKit
 
 class SecondViewController: UIViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
     
     @IBAction func secondVCButtonTapped(_ sender: UIButton) {
         NotificationCenter.default.post(name: .myNotification, object: nil, userInfo: ["myAnswer": "3기 입니다"])
