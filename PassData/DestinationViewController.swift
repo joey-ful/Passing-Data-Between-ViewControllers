@@ -11,13 +11,8 @@ class DestinationViewController: UIViewController {
     @IBOutlet weak var destinationScreenLabel: UILabel!
     var name = ""
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(navigationController)
         destinationScreenLabel.text = "Hi \(name)"
-    }
-    @IBAction func backButton(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
     }
 }

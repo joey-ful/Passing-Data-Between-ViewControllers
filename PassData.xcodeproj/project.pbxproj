@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D4564731269C8B290057C8CB /* Destination2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4564730269C8B280057C8CB /* Destination2ViewController.swift */; };
-		D456477C269E57010057C8CB /* ByeDestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D456477B269E57010057C8CB /* ByeDestinationViewController.swift */; };
 		D466BEA22699084500A0596C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D466BEA12699084500A0596C /* AppDelegate.swift */; };
 		D466BEA42699084500A0596C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D466BEA32699084500A0596C /* SceneDelegate.swift */; };
 		D466BEA62699084500A0596C /* SourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D466BEA52699084500A0596C /* SourceViewController.swift */; };
@@ -16,17 +14,9 @@
 		D466BEAB2699084700A0596C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D466BEAA2699084700A0596C /* Assets.xcassets */; };
 		D466BEAE2699084700A0596C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D466BEAC2699084700A0596C /* LaunchScreen.storyboard */; };
 		D466BEB72699102B00A0596C /* DestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D466BEB62699102B00A0596C /* DestinationViewController.swift */; };
-		D466BEC52699164E00A0596C /* SajangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D466BEC42699164E00A0596C /* SajangViewController.swift */; };
-		D466BEC82699165600A0596C /* BiseoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D466BEC72699165600A0596C /* BiseoViewController.swift */; };
-		D466BED22699216700A0596C /* SajangSegueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D466BED12699216700A0596C /* SajangSegueViewController.swift */; };
-		D466BED52699217100A0596C /* BiseoSegueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D466BED42699217100A0596C /* BiseoSegueViewController.swift */; };
-		D466BED82699266200A0596C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D466BED72699266200A0596C /* FirstViewController.swift */; };
-		D466BEDB2699266700A0596C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D466BEDA2699266700A0596C /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D4564730269C8B280057C8CB /* Destination2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination2ViewController.swift; sourceTree = "<group>"; };
-		D456477B269E57010057C8CB /* ByeDestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByeDestinationViewController.swift; sourceTree = "<group>"; };
 		D466BE9E2699084500A0596C /* PassData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D466BEA12699084500A0596C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D466BEA32699084500A0596C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,12 +26,6 @@
 		D466BEAD2699084700A0596C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D466BEAF2699084700A0596C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D466BEB62699102B00A0596C /* DestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationViewController.swift; sourceTree = "<group>"; };
-		D466BEC42699164E00A0596C /* SajangViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SajangViewController.swift; sourceTree = "<group>"; };
-		D466BEC72699165600A0596C /* BiseoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiseoViewController.swift; sourceTree = "<group>"; };
-		D466BED12699216700A0596C /* SajangSegueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SajangSegueViewController.swift; sourceTree = "<group>"; };
-		D466BED42699217100A0596C /* BiseoSegueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiseoSegueViewController.swift; sourceTree = "<group>"; };
-		D466BED72699266200A0596C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		D466BEDA2699266700A0596C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,12 +58,8 @@
 		D466BEA02699084500A0596C /* PassData */ = {
 			isa = PBXGroup;
 			children = (
-				D466BECF2699213D00A0596C /* Delegate Design Pattern Using Segue */,
-				D466BEC22699143F00A0596C /* Closure */,
-				D466BEC12699141900A0596C /* Present */,
-				D466BEBF269913CA00A0596C /* Notification Center */,
-				D466BEBD269913A600A0596C /* Delegate Design Pattern Programmatically */,
-				D466BEBC2699139700A0596C /* Segue */,
+				D466BEA52699084500A0596C /* SourceViewController.swift */,
+				D466BEB62699102B00A0596C /* DestinationViewController.swift */,
 				D466BEA12699084500A0596C /* AppDelegate.swift */,
 				D466BEA32699084500A0596C /* SceneDelegate.swift */,
 				D466BEA72699084500A0596C /* Main.storyboard */,
@@ -88,58 +68,6 @@
 				D466BEAF2699084700A0596C /* Info.plist */,
 			);
 			path = PassData;
-			sourceTree = "<group>";
-		};
-		D466BEBC2699139700A0596C /* Segue */ = {
-			isa = PBXGroup;
-			children = (
-				D466BEA52699084500A0596C /* SourceViewController.swift */,
-				D466BEB62699102B00A0596C /* DestinationViewController.swift */,
-				D4564730269C8B280057C8CB /* Destination2ViewController.swift */,
-				D456477B269E57010057C8CB /* ByeDestinationViewController.swift */,
-			);
-			path = Segue;
-			sourceTree = "<group>";
-		};
-		D466BEBD269913A600A0596C /* Delegate Design Pattern Programmatically */ = {
-			isa = PBXGroup;
-			children = (
-				D466BEC42699164E00A0596C /* SajangViewController.swift */,
-				D466BEC72699165600A0596C /* BiseoViewController.swift */,
-			);
-			path = "Delegate Design Pattern Programmatically";
-			sourceTree = "<group>";
-		};
-		D466BEBF269913CA00A0596C /* Notification Center */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Notification Center";
-			sourceTree = "<group>";
-		};
-		D466BEC12699141900A0596C /* Present */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Present;
-			sourceTree = "<group>";
-		};
-		D466BEC22699143F00A0596C /* Closure */ = {
-			isa = PBXGroup;
-			children = (
-				D466BED72699266200A0596C /* FirstViewController.swift */,
-				D466BEDA2699266700A0596C /* SecondViewController.swift */,
-			);
-			path = Closure;
-			sourceTree = "<group>";
-		};
-		D466BECF2699213D00A0596C /* Delegate Design Pattern Using Segue */ = {
-			isa = PBXGroup;
-			children = (
-				D466BED12699216700A0596C /* SajangSegueViewController.swift */,
-				D466BED42699217100A0596C /* BiseoSegueViewController.swift */,
-			);
-			path = "Delegate Design Pattern Using Segue";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,18 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D466BED82699266200A0596C /* FirstViewController.swift in Sources */,
 				D466BEB72699102B00A0596C /* DestinationViewController.swift in Sources */,
-				D466BEC82699165600A0596C /* BiseoViewController.swift in Sources */,
 				D466BEA62699084500A0596C /* SourceViewController.swift in Sources */,
-				D466BED52699217100A0596C /* BiseoSegueViewController.swift in Sources */,
 				D466BEA22699084500A0596C /* AppDelegate.swift in Sources */,
-				D466BEC52699164E00A0596C /* SajangViewController.swift in Sources */,
 				D466BEA42699084500A0596C /* SceneDelegate.swift in Sources */,
-				D466BEDB2699266700A0596C /* SecondViewController.swift in Sources */,
-				D466BED22699216700A0596C /* SajangSegueViewController.swift in Sources */,
-				D456477C269E57010057C8CB /* ByeDestinationViewController.swift in Sources */,
-				D4564731269C8B290057C8CB /* Destination2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
