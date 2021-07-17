@@ -10,22 +10,19 @@ import UIKit
 class FirstViewController: UIViewController {
     @IBOutlet weak var juiceReadyLabel: UILabel!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        NotificationCenter.default.addObserver(self, selector: #selector(onNotification(notification:)), name: .juiceNotification, object: nil)
-    }
-    
-    @objc func onNotification(notification: Notification) {
-        guard let juiceMenu = notification.userInfo?["menu"] as? String else {
-            return
-        }
-        juiceReadyLabel.text = "\(juiceMenu) is Ready!"
-    }
-    
     @IBAction func orderJuiceButtonTapped(_ sender: Any) {
         guard let secondVC = storyboard?.instantiateViewController(identifier: "secondVC") as? SecondViewController else {
             return
         }
+        secondVC.modalPresentationStyle = .fullScreen
         present(secondVC, animated: true, completion: nil)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        if let menu = JuiceMenu.juiceMenu.menu {
+            juiceReadyLabel.text = "\(menu) is Ready!"
+        } else {
+            juiceReadyLabel.text = "Menu Ready"
+        }
     }
 }
