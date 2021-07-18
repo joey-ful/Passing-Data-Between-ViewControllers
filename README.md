@@ -1,6 +1,7 @@
 # 뷰 컨트롤러 간 데이터 전달하기 (Passing Data Between ViewControllers)
-[뷰 컨트롤러 간 화면이동 요약 노션 정리](https://www.notion.so/Displaying-ViewController-onscreen-9d5d43bb3f7045aca63a2e24f5127b0e)<br>
-[뷰 컨트롤러 간 데이터 전달하기 노션 정리](https://www.notion.so/Passing-Data-Between-ViewControllers-1481d90cac88450382b7b151078c836b)
+[화면이동 요약 노션 정리](https://www.notion.so/Displaying-ViewController-onscreen-9d5d43bb3f7045aca63a2e24f5127b0e)<br>
+[데이터 전달하기 노션 정리](https://www.notion.so/Passing-Data-Between-ViewControllers-1481d90cac88450382b7b151078c836b)<br>
+[데이터 전달하기 블로그](https://joey-ful.github.io/blog/210717-passingDataBetweenViewControllers/)
 <br>
 코드는 브랜치별로 확인 가능
 
