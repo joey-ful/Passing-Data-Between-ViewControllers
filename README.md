@@ -4,8 +4,7 @@
 
 
 > **정리 포스팅**<br>
-[데이터 전달하기 노션 정리](https://www.notion.so/7-997e10334c82402eabc2e029bf61ad36)<br>
-[데이터 전달하기 블로그](https://joey-ful.github.io/blog/210717-passingDataBetweenViewControllers/)
+[데이터 전달하기 노션 정리글](https://www.notion.so/7-997e10334c82402eabc2e029bf61ad36)<br>
 <br>
 코드는 브랜치별로 확인 가능
 
