@@ -1,10 +1,10 @@
 # 뷰 컨트롤러 간 데이터 전달하기 (Passing Data Between ViewControllers)
 > **연관 포스팅**<br>
-[화면이동 요약 노션 정리](https://www.notion.so/f6b9732f5e7643d3bd766a28d97277c0)<br>
+[화면이동 요약 노션 정리](https://isjoeyful.notion.site/f6b9732f5e7643d3bd766a28d97277c0)<br>
 
 
 > **정리 포스팅**<br>
-[데이터 전달하기 노션 정리글](https://www.notion.so/7-997e10334c82402eabc2e029bf61ad36)<br>
+[데이터 전달하기 노션 정리글](https://isjoeyful.notion.site/7-997e10334c82402eabc2e029bf61ad36)<br>
 <br>
 코드는 브랜치별로 확인 가능
 
