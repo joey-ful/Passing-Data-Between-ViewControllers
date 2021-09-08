@@ -8,7 +8,7 @@
 import UIKit
 
 class SajangViewController: UIViewController {
-    var delegate: Biseo?
+    weak var delegate: Biseo?
     
     @IBAction func juiceMenuButtonTapped(_ sender: UIButton) {
         let menu = (sender.titleLabel?.text)!

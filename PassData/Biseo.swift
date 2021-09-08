@@ -7,6 +7,6 @@
 
 import Foundation
 
-protocol Biseo {
+protocol Biseo: class {
     func juiceMenuIsSelected(_ menu: String)
 }
